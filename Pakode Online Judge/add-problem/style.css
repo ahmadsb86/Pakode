@@ -1,0 +1,30 @@
+*{
+  font-family: 'Poppins', sans-serif;
+}
+
+body { overflow: hidden; }
+
+.align-center{
+  align-items: center;
+}
+
+@keyframes fadeIn{
+  0% {
+    transform: translateY(40px);
+  }
+  20%{
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+
+
+.animate {
+  opacity: 0;
+  transform: translateY(40px);
+  animation: fadeIn 1s;
+  animation-fill-mode: both;
+}

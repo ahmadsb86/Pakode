@@ -1,0 +1,64 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+<title>ACE in Action</title>
+<style type="text/css" media="screen">
+    #editor { 
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+    }
+</style>
+</head>
+<body>
+
+
+</body>
+</html>
+ -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>POJ - Problem</title>
+
+    <link href="http://fonts.cdnfonts.com/css/poppins" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body class="bg-neutral-800">
+
+    <h1 id="qname" class="text-6xl text-teal-600 text-center my-24"></h1>
+    <p id="qstatement" class="text-neutral-300 my-12 mx-auto w-1/2"></p>
+    
+
+    <div class="text-neutral-300 flex justify-center m-24" id="language-selector">
+      <button class="border-2 border-teal-600 h-36 w-48 rounded-md text-xl m-3 hover:bg-teal-600 hover:text-white hover:-translate-y-2 transition-all" mode="cpp">C++</button>
+      <button class="border-2 border-teal-600 h-36 w-48 rounded-md text-xl m-3 hover:bg-teal-600 hover:text-white hover:-translate-y-2 transition-all" mode="py">Python</button>
+    </div>
+
+    <div class="hidden flex flex-col justify-center items-center" id="ide">
+      <div class="w-1/2 h-96 rounded-lg m-12" id="editor"></div>
+      <button id="btn" class="text-white w-24 py-2 bg-teal-600 rounded-md">Run Code</button>
+      <p class="mt-24 mb-2 text-white">Test Case Output</p>
+      <p id="output" class="text-white m-4 bg-neutral-700 w-1/2 h-96 rounded-2xl mb-24 p-6"> Run your code to view test case results. </p>
+    </div>
+
+  </body>
+</html>
+
+<!-- Vedor JS Files -->
+<script src="https://cdn.tailwindcss.com"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.8.1/ace.js" 
+integrity="sha512-qqjLKA1tYKWxtpKReCrmE8DNYVa+/gNzzeJ6SZaTi+3J+KdTXUlS3AZtcPydvb0rXWtdwE4/KCS4RjfMGeil6g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+<script src="DomP.js"></script>
+
+<!-- Script -->
+<script src="script.js"></script>

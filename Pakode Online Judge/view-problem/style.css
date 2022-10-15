@@ -1,0 +1,8 @@
+p, h1{
+  font-family: 'Poppins', sans-serif;
+}
+
+#editor{
+  width: 50%;
+  height: 500px;
+}

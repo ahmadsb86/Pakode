@@ -1,0 +1,68 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: Mono;
+  src: url(../fonts/mono.ttf);
+}
+/* @font-face {
+  font-family: Sans;
+  src: url(./assets/fonts/sans.ttf);
+}
+@font-face {
+  font-family: Consolas;
+  src: url(./assets/fonts/consolas.ttf);
+} */
+
+*{
+  font-family: Mono;
+}
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+.page{
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+  display: none;
+}
+
+.nav-el{
+  cursor:pointer;
+}
+
+.vertical-text{
+  writing-mode: vertical-lr;
+}
+
+.bouncy{
+  animation: bounce;
+  animation-duration: 1s; 
+  animation-iteration-count:infinite;
+  animation-timing-function: ease;
+}
+
+fade{
+  transition: all 1s ease;
+}
+
+
+.-rotate-75{
+  transform: rotate(-75deg);
+}
+
+.w-200{
+  width: 50rem;
+}
+
+
+
+@keyframes bounce { 
+  0%, 50%, 100% {transform: translateY(0);} 
+  50% {transform: translateY(20px);} 
+  100% {transform: translateY(0px);} 
+}

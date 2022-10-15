@@ -1,0 +1,36 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="https://unpkg.com/@picocss/pico@latest/css/pico.min.css"> -->
+    <link rel="stylesheet" href="assets/css/set-problem.css">
+    <title>POJ - Set Problems</title>
+  </head>
+  <body class="bg-neutral-900 h-screen w-screen">
+    <div class="flex flex-col justify-center content-center w-3/4 mx-auto">
+      
+      <h1 class="text-teal-600 m-24 text-center font-bold text-4xl">Create a Problem</h1>
+
+      <label for="" class="text-white my-3 text-xl">Question Name</label>
+      <input type="text" id="name" class="mb-12 bg-neutral-800 rounded-md text-neutral-300 p-4 border-teal-600 border-2">
+      
+      <label for="" class="text-white my-3 text-xl">Question Statement</label>
+      <textarea id="statement" cols="30" rows="10" class="mb-12 bg-neutral-800 rounded-md text-neutral-300 p-4 border-teal-600 border-2"></textarea>
+      
+      <label for="" class="text-white my-3 text-xl">Test input</label>
+      <input type="text" id="testIn" class="mb-12 bg-neutral-800 rounded-md text-neutral-300 p-4 border-teal-600 border-2">
+      
+      <label for="" class="text-white my-3 text-xl">Test output</label>
+      <input type="text" id="testOut" class="mb-12 bg-neutral-800 rounded-md text-neutral-300 p-4 border-teal-600 border-2">
+
+      <button class="bg-teal-600 text-white rounded-md p-4 mt-8 mb-24" id="create-btn">Create</button>
+    </div>
+  </body>
+</html>
+
+<script src="https://cdn.tailwindcss.com"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="assets/js/set-problem.js"></script>
